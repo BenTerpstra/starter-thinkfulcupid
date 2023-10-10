@@ -165,7 +165,7 @@ footer p {
 /* -------  Media Query ------- */
 
 /*Desktop*/
-@media all and (min-width: 769px) {
+@media all and (min-width: /*769px*/ 768px) {
   .group {
     flex-direction: row; 
     justify-content: center;
