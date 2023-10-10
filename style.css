@@ -91,7 +91,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 72px;
+  font-size: 128px;
   color: #ecdbc9;
 }
 
@@ -206,14 +206,10 @@ footer p {
   form button {font-size: 32px;}
 }
 
-/*mobile devices (large)*/
-@media all and (max-width: 768px) and (min-width:551px) {
-  .logo {
-    font-size: 128px;
-  }
-} /*Font size, etc. no longer looked good below 550px*/
 
 /*mobile devices (small)*/
+/*Font size, etc. no longer looked good below 550px, 
+which is a relatively common screen size*/
 @media all and (max-width: 550px) { 
   .logo {font-size: 48px;}
   h2 {font-size: 21px;}
