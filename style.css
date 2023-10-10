@@ -131,11 +131,12 @@ form {
 form label {
   font-weight: bold;
   font-size: 28px;
+  margin: 10px;
 }
 
 form select,
 form input {
-  margin-bottom: 40px;
+  margin: 10px;
   width: 300px;
   font-size: 28px;
 }
