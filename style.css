@@ -70,6 +70,13 @@ main img {
   align-content: space-between;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*margin-bottom: 10px;*/
+}
+
 /*
 .container {
   display: flex;
@@ -162,14 +169,14 @@ form {
   display: flex;
   flex-direction: column;
 
-  /*align-content: space-between;*/
+  align-content: space-between;
   /*justify-content: space-between;*/
 }
 
 form label {
   font-weight: bold;
   font-size: 28px;
-  text-align: left;
+  /*align-content: space-between;*/
 }
 
 form select,
@@ -177,7 +184,7 @@ form input {
   margin-bottom: 40px;
   width: 300px;
   font-size: 28px;
-  float: right;
+  /*float: right;*/
 }
 
 form button {
